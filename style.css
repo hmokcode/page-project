@@ -6,6 +6,10 @@ body{
     margin: 0;
     min-height: 100vh;
 }
+.hero,
+.footer{
+    background-color: #1F2937;
+}
 .hero{
     display: flex;
     flex-direction: column;
@@ -13,52 +17,15 @@ body{
     padding-right: 400px;
     padding-bottom: 100px;
 }
-.hero .header img{
-    width: 50px;
-    height: auto;
-    border-radius: 48%;
-}
-.hero .title img{
-    width: 400px;
-    border-radius: 10px;
-}
-h1{
-    font-size: 48px;
-    font-weight: 900;
-    color: #F9FAF8;
-    margin: 0;
-}
-p{
-    margin: 0;
-}
-.title .image{
-    display: flex;
-    align-content: inherit;
-}
-button{
-    padding: 10px 20px;
-    border: 0;
-    background-color: #3882F6;
-    border-radius: 10px;
-    color: white;
-    font-weight: bold;
-    font-size: 15px;
-    max-width: 100px;
-}
-.hero,
-.footer{
-    background-color: #1F2937;
-}
 .header{
     display: flex;
     justify-content: space-between;
     padding: 10px 0px;
 }
-a,
-.title p{
-    font-size: 18px;
-    color: #E5E7EB;
-    text-decoration: none;
+.hero .header img{
+    width: 50px;
+    height: auto;
+    border-radius: 48%;
 }
 ul{
     display: flex;
@@ -66,6 +33,12 @@ ul{
 }
 li{
     list-style-type: none;
+}
+a,
+.title p{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
 }
 .title{
     display: flex;
@@ -79,4 +52,57 @@ li{
     flex-direction: column;
     justify-content: space-between;
     gap: 20px;
+}
+h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+button{
+    padding: 10px 20px;
+    border: 0;
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    max-width: 100px;
+}
+.hero .title img{
+    width: 400px;
+    border-radius: 10px;
+}
+.title .image{
+    display: flex;
+    align-content: inherit;
+}
+
+
+h2{
+    font-size: 32px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 40px 0;
+    text-align: center;
+}
+.second-section{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding-bottom: 100px;
+}
+.second-section img{
+    display: flex;
+    gap: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+.text{
+    max-width: 150px;
+    text-align: center;
 }
