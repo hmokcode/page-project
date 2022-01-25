@@ -106,3 +106,27 @@ h2{
     max-width: 150px;
     text-align: center;
 }
+
+.third-section{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 100px 400px;
+    font-size: 36px;
+    color: #1F2937;
+}
+.third-section strong{
+    text-align: end;
+}
+.never{
+    color: rgb(37, 236, 37);
+}
+.gonna{
+    color: rgb(214, 142, 9);
+}
+.give-you{
+    color: rgb(216, 216, 29);
+}
+.up{
+    color: rgb(18, 18, 219);
+}
