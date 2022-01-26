@@ -62,16 +62,18 @@ h1{
 p{
     margin: 0;
 }
-button{
+.hero button,
+.fourth-section button{
     padding: 10px 20px;
     border: 0;
-    background-color: #3882F6;
     border-radius: 10px;
-    color: white;
     font-weight: bold;
     font-size: 15px;
     max-width: 100px;
+    background-color: #3882F6;
+    color: white;
 }
+
 .hero .title img{
     width: 400px;
     border-radius: 10px;
@@ -129,4 +131,25 @@ h2{
 }
 .up{
     color: rgb(18, 18, 219);
+}
+
+.action{
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+    margin: 100px 400px;
+    padding: 50px 75px;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.fourth-section button{
+    border: 2px solid white;
+}
+
+.footer{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
 }
